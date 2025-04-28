@@ -54,7 +54,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
             name=options.get("custom_device_name"),  # Custom device name from user step 2 (options)
             model=device_info.get("product"),
             sw_version=device_info.get("version"),
-            configuration_url="https://api-e.ecoflow.com",
+            configuration_url="https://api.ecoflow.com",
             suggested_area="Boiler Room",
         )
 

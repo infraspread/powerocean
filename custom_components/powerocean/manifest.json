@@ -2,11 +2,11 @@
   "domain": "powerocean",
   "name": "Ecoflow PowerOcean",
   "codeowners": [
-    "@niltrip"
+    "@infraspread"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/niltrip/powerocean",
+  "documentation": "https://github.com/infraspread/powerocean",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/niltrip/powerocean/issues",
-  "version": "2025.01.07"
+  "issue_tracker": "https://github.com/infraspread/powerocean/issues",
+  "version": "2025.04.28"
 }

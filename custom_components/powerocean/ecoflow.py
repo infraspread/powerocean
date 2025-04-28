@@ -38,7 +38,7 @@ class Ecoflow:
         self.device = None
         self.session = requests.Session()
         self.url_iot_app = "https://api.ecoflow.com/auth/login"
-        self.url_user_fetch = f"https://api-e.ecoflow.com/provider-service/user/device/detail?sn={self.sn}"
+        self.url_user_fetch = f"https://api.ecoflow.com/provider-service/user/device/detail?sn={self.sn}"
 
     def get_device(self):
         """Get device info."""
